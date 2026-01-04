@@ -52,6 +52,7 @@
         </plugins>
     </build>
 
+    <dependencies>
     <dependency>
         <groupId>org.mockito</groupId>
         <artifactId>mockito-core</artifactId>
@@ -65,4 +66,11 @@
         <version>1.11.16</version>
     </dependency>
 
+    <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-api</artifactId>
+        <version>5.8.2</version> <!-- Версия может быть другой, актуальную версию смотрите на сайте JUnit -->
+        <scope>test</scope>
+    </dependency>
+    </dependencies>
 </project>
