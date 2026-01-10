@@ -1,5 +1,5 @@
-import com.example.Feline;
 import com.example.Cat;
+import com.example.Feline;
 import com.example.Predator;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 @ExtendWith(MockitoExtension.class)
 public class CatTest {
     @Mock
-     Feline feline;
+    Feline feline;
 
     @Test
     public void getSoundTest() { // сам тест
