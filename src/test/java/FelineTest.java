@@ -19,7 +19,7 @@ public class FelineTest {
         Feline feline = new Feline();
         List<String> expectedFood = List.of("Животные", "Птицы", "Рыба");
         List<String> actualFood = feline.eatMeat();
-        assertEquals("Кошачьи едят не правильную пищу", expectedFood, actualFood);
+        assertEquals("Кошачьи едят не правильную еду", expectedFood, actualFood);
     }
 @Test
     public void getFamilyTest() {
