@@ -44,8 +44,8 @@ public class FelineTest {
     @Test
     public void getCountLessKittensTest() {
         Feline feline = new Feline();
-        int expectedKittensCount = 1;
-        int actualKittensCount = feline.getKittens(0);
+        int expectedKittensCount = 3;
+        int actualKittensCount = feline.getKittens();
         assertEquals("не верное кол-во котят", expectedKittensCount, actualKittensCount);
     }
 }
