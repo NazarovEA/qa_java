@@ -25,3 +25,4 @@ public class Feline extends Animal implements Predator {
     public void getSound(String мяу) {
     }
 }
+
